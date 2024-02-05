@@ -22,7 +22,6 @@ The program offers the following sorting algorithms for selection:
 - **Bubble Sort**
 - **Selection Sort**
 - **Insertion Sort**
-- **Merge Sort**
 - **Quick Sort**
 
 ## Functionality
