@@ -1,29 +1,40 @@
-BUILD OUTPUT DESCRIPTION
+# Sorting Algorithms
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
+This Java program allows users to select a sorting algorithm and specify the number of random numbers to be sorted. It provides a variety of sorting algorithms for users to choose from and displays the sorted numbers accordingly.
 
-To run the project , go to the dist folder and open the following:
+## Features
 
-"SortingRoutines.jar" 
+- **Sorting Algorithm Selection**: Choose from a variety of sorting algorithms including Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort.
+- **Random Number Generation**: Specify the number of random numbers to be generated and sorted.
+- **Sorting**: Display the sorted numbers using the selected sorting algorithm.
 
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
+## Usage
 
-Notes:
+1. Ensure you have Java installed on your system.
+2. Clone this repository to your local machine.
+3. Compile the program.
+4. Run the compiled program. 
 
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
+## Sorting Algorithms
+
+The program offers the following sorting algorithms for selection:
+
+- **Bubble Sort**
+- **Selection Sort**
+- **Insertion Sort**
+- **Merge Sort**
+- **Quick Sort**
+
+## Functionality
+
+1. **Sorting Algorithm Selection**: Enter the number corresponding to the desired sorting algorithm.
+2. **Random Number Generation**: Enter the desired number of random numbers to be generated.
+3. **Sorting**: View the sorted numbers using the selected sorting algorithm.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details.
